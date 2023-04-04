@@ -1,0 +1,65 @@
+body{
+    font-family: sans-serif;
+    color: aliceblue;
+    background-image: linear-gradient(to bottom, #A55C1B, #000000);
+}
+h1, h5{
+    text-shadow: 2px 2px 5px #000000;
+}
+th, td{
+    padding: 10px;
+}
+label{
+    margin-right: 20px;
+}
+input [type=text]{
+    width: 50%;
+}
+button{
+    margin: 2px;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+}
+#sub{
+    background-color: aquamarine;
+    color: green;
+}
+#sub:hover{
+    background-color: green;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: aliceblue;
+}
+#re{
+    background-color: lightcoral;
+    color: red;
+}
+#re:hover{
+    background-color: red;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: aliceblue;
+}
+fieldset{
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+}
+.form-head{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px; 
+    background-image: url("./images/food.png"); 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.form-head-text{
+    margin-left: 20em;
+    margin-right: 20em;
+    text-align: center;
+}
+.form-body{
+    margin-left: 20em;
+    margin-right: 20em;
+}
+.form-buttons{
+    text-align: center;
+}
